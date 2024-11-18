@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestPet
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.417 s <<< FAILURE! -- in TestPet
+TestPet.testePostPet -- Time elapsed: 0.057 s <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	The type java.lang.Comparable cannot be resolved. It is indirectly referenced from required type org.hamcrest.Matchers
+	The annotation @Test is disallowed for this location
+	TestUser cannot be resolved
+
+	at TestPet.<init>(TestPet.java:1)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at java.base/java.util.Optional.orElseGet(Optional.java:362)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

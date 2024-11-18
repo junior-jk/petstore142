@@ -1,0 +1,16 @@
+{
+    "id": 32527601,
+    "category": {
+        "id": 1,
+        "name": "cachorro"
+    },
+    "name": "valente",
+    "photoUrls": [],
+    "tags": [
+        {
+            "id": 9,
+            "name": "vacinado"
+        }
+    ],
+    "status": "available"
+}
