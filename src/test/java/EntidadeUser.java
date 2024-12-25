@@ -17,7 +17,7 @@ import com.google.gson.Gson;
 // 2 -classe
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class) // Ativa a ordenação
 
-public class TestPet {
+public class EntidadeUser {
 
     // 2.1 atributos
     static String ct = "application/json"; // content-type
@@ -195,9 +195,7 @@ public class TestPet {
                 .body("name", is(petName))
                 .body("category.id", is(catId))
                 .body("category.name", is(catName))
-                .body("status", is(status1)) // inicial do Post
-
-        ;
+                .body("status", is(status1));
 
     }
 

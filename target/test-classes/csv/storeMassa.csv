@@ -1,0 +1,6 @@
+id,petId,quantity,status1,status2,status3,complete
+1,325277,4,placed,approved,delivered,true
+2,325278,5,placed,approved,delivered,true
+3,325279,6,approved,placed,delivered,true
+4,325280,7,approved,delivered,placed,true
+
