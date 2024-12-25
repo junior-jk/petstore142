@@ -17,7 +17,7 @@ import com.google.gson.Gson;
 // 2 -classe
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class) // Ativa a ordenação
 
-public class EntidadeUser {
+public class EntidadeUserTest {
 
     // 2.1 atributos
     static String ct = "application/json"; // content-type
